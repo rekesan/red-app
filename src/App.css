@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.animal-list {
+  width: 700px;
+  margin: 0 auto;
+}
