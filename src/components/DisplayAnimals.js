@@ -1,4 +1,4 @@
-import "../styles/DisplayAnimals.css"
+import "../styles/DisplayAnimals.css";
 import useSound from "use-sound";
 
 export const DisplayAnimals = ({ name, image, audio }) => {

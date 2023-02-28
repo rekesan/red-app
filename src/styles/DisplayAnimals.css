@@ -9,5 +9,6 @@
 }
 .list:hover{
     cursor: pointer;
-    background-color: rgb(164, 164, 164);
+    background-color: rgb(174, 174, 174);
+    transform: scale(1.05,1.05);
 }

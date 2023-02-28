@@ -7,7 +7,13 @@ function App() {
   return (
     <div className="animal-list">
       {animals.map((animal) => {
-        return <DisplayAnimals name={animal.name} image={animal.image} audio={animal.audio} />;
+        return (
+          <DisplayAnimals
+            name={animal.name}
+            image={animal.image}
+            audio={animal.audio}
+          />
+        );
       })}
     </div>
   );

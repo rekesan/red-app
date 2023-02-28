@@ -13,5 +13,6 @@ export const animals = [
     { image: '🐷', audio: '/pig.wav', name: 'Pig' },
     { image: '🐭', audio: '/mouse.mp3', name: 'Mouse' },
     { image: '🐻', audio: '/bear.wav', name: 'Bear' },
-    { image: '🐸', audio: '/frog.wav', name: 'Frog' }
+    { image: '🐸', audio: '/frog.wav', name: 'Frog' },
+    { image: '😎', audio: '/hehe.mp3', name: 'Click me!' }
 ]
