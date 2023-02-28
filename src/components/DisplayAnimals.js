@@ -1,10 +1,12 @@
 import "../styles/DisplayAnimals.css"
+import useSound from "use-sound";
 
-export const DisplayAnimals = ({ name, image }) => {
+export const DisplayAnimals = ({ name, image, audio }) => {
+  const [play] = useSound(audio);
   return (
-    <div className="list">
+    <button className="list" onClick={play}>
       {image} :: {name}
-    </div>
+    </button>
   );
 };
 

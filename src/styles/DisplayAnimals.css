@@ -1,8 +1,13 @@
 .list{
-    width: 200px;
+    width: 300px;
     padding: 20px;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: .3em;
     font-size: 1.5em;
-    margin: 10px auto;
+    margin: .5em;
+    background-color: rgb(236, 236, 236);
+}
+.list:hover{
+    cursor: pointer;
+    background-color: rgb(164, 164, 164);
 }
