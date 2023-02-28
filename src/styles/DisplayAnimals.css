@@ -12,3 +12,12 @@
     background-color: rgb(174, 174, 174);
     transform: scale(1.05,1.05);
 }
+.playing{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: .3em;
+    font-size: 1.5em;
+    margin: .5em;
+    background-color: rgb(25, 218, 73);
+}
